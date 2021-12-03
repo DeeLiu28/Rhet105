@@ -1,5 +1,6 @@
 import Content from '../components/Content';
 import SmokeGif from '../assets/smokes.gif';
+import LearnMore from '../components/LearnMore';
 
 const Home = () => {
   return (
@@ -36,6 +37,9 @@ const Home = () => {
         benefits, possible environmental drawbacks, and social risk concerns
         that the nuclear conundrum creates.
       </p>
+      <LearnMore to="/public-opinion" orientation="center">
+        Public Opinion
+      </LearnMore>
     </Content>
   );
 };
